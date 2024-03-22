@@ -23,3 +23,12 @@ To install and run this project locally, follow these steps:
 5. open postman and run the below URL to get the air quality data for any coordinates you have ( longtitude and latitude ) for example here i'm using ( 90 , 180 ) in the same  order
    ```bash
    GET   http://localhost:7777/api/air-quality?long=90&lat=180
+
+## CronJob 
+after running the Project you will notice that there is a CRON job running every 1 minute to get the data for Paris city and save it in DB 
+
+to check the API data please open MongoDB compase you will find the below DB
+   . **AirQuality_DB**
+then you can navigate to **paris_air_data** collection to check the data
+ 
+
