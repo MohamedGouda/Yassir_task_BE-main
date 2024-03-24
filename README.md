@@ -10,10 +10,10 @@ To install and run this project locally, follow these steps:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/MohamedGouda/air-quality-monitoring.git
+     https://github.com/MohamedGouda/Yassir_task_BE-main.git
 2. Navigate to the project directory
    ```bash
-   cd air-quality-monitoring
+   cd Yassir_task_BE-main
 3. Install dependencies using npm
    ``bash
    npm install
